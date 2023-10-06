@@ -36,8 +36,8 @@ His work is highly interdisciplinary. He is looking to collaborate with research
 
 ## Useful links
 
-[Zheming Gao's Google Scholar webpage](https://scholar.google.com/citations?user=YnhbaYgAAAAJ&hl=en&oi=ao){:target="_blank"}
+[Zheming Gao's Google Scholar webpage](https://scholar.google.com/citations?user=jfM50lsAAAAJ&hl=en&oi=ao)
 
-[Fangroup](https://www.ise.ncsu.edu/fuzzy-neural/){:target="_blank"} 
+[Fangroup](https://www.ise.ncsu.edu/fuzzy-neural/)
 
-[Zheming's github page](https://github.com/tonygaobasketball/){:target="_blank"}
+[Zheming's github page](https://github.com/tonygaobasketball/)
