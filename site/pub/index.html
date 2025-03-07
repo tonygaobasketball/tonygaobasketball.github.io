@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +10,13 @@
         <link rel="shortcut icon" href="../img/favicon.ico">
         <title>Publications - Zheming Gao</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/rust.min.js"></script>
@@ -24,7 +28,7 @@
             <div class="container">
                 <a class="navbar-brand" href="..">Zheming Gao</a>
                 <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -32,23 +36,26 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="navitem active">
-                                <a href="./" class="nav-link">Publications</a>
+                            <li class="nav-item">
+                                <a href="./" class="nav-link active" aria-current="page">Publications</a>
                             </li>
-                            <li class="navitem">
+                            <li class="nav-item">
                                 <a href="../teach/" class="nav-link">Teaching</a>
                             </li>
-                            <li class="navitem">
-                                <a href="../research/" class="nav-link">Research</a>
+                            <li class="nav-item">
+                                <a href="../group/" class="nav-link">Group</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../service/" class="nav-link">Service</a>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav ml-auto">
+                    <ul class="nav navbar-nav ms-md-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
@@ -69,28 +76,24 @@
 
         <div class="container">
             <div class="row">
-                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
     <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
             <span class="fa fa-angle-down"></span>
         </button>
     </div>
 
     
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#selected-publications" class="nav-link">Selected Publications</a>
+            <li class="nav-item" data-bs-level="1"><a href="#publications" class="nav-link">Publications</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#pre-prints" class="nav-link">Pre-prints</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#journal-papers-published-and-accepted" class="nav-link">Journal papers (published and accepted)</a>
+            <li class="nav-item" data-bs-level="2"><a href="#selected-journal-papers" class="nav-link">Selected Journal Papers</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#phd-dissertation" class="nav-link">Ph.D. dissertation</a>
+            <li class="nav-item" data-bs-level="2"><a href="#thesis" class="nav-link">Thesis</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -101,69 +104,109 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="selected-publications">Selected Publications</h1>
-<h2 id="pre-prints">Pre-prints</h2>
-<ol>
-<li>Sparse Universum quadratic surface support vector machine models for binary classification<br />
-Moosaei, H., Mousavi, A., Hladík, M., &amp; Gao, Z.* (2021), <em>arXiv preprint arXiv:2104.01331</em>.</li>
-</ol>
+<p><head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Selected publications of Dr. Zheming Gao">
+    <meta name="keywords" content ="Zheming Gao, publications, papers, research">
+</head></p>
+<h1 id="publications">Publications</h1>
+<p>Link to my Google Scholar <a href="https://scholar.google.com/citations?user=jfM50lsAAAAJ&amp;hl=en&amp;oi=ao">page</a> and my <a href="https://github.com/tonygaobasketball/">github</a> profile.</p>
 <p></br></p>
-<h2 id="journal-papers-published-and-accepted">Journal papers (published and accepted)</h2>
+<h2 id="selected-journal-papers">Selected Journal Papers</h2>
 <ol>
-<li>
-<p>A novel Markov model for near-term railway delay prediction<br />
-Xu, J., Wang, W., Gao, Z*, Luo, H., &amp; Wu, Q. (2023). <em>Computers &amp; Industrial Engineering</em>, 181, 109302. </p>
-</li>
-<li>
-<p>Sparse L1-norm quadratic surface support vector machine with Universum data                   <br />
-Moosaei, H., Mousavi, A., Hladík, M., &amp; Gao, Z.* (2023). <em>Soft Computing</em>, 27(9), 5567-5586.                         </p>
-</li>
-<li>
-<p>A robust support vector regression model for electric load forecasting                       <br />
-Luo, J., Hong, T., Gao, Z.*, &amp; Fang, S.-C. (2023). <em>International Journal of Forecasting</em>, 39(2), 1005-1020.                         </p>
-</li>
-<li>
-<p>Multi-period distribution network design with boundedly rational customers for the service-oriented manufacturing supply chain: A 4PL perspective                  <br />
-Zhang, Y., Gao, Z., Huang, M.*, Jiang, S., Yin, M., &amp; Fang, S. C. (2022). <em>International Journal of Production Research</em>, 1-20. </p>
-</li>
-<li>
-<p>Distributionally robust optimization: A review on theory and applications  <br />
-Lin, F., Fang, X., &amp; Gao, Z.* (2022). <em>Numerical Algebra, Control and Optimization</em>, 12(1), 159-212. </p>
-</li>
-<li>
-<p>A kernel-free fuzzy reduced quadratic surface $\nu$-support vector machine with applications <br />
-Gao, Z., Wang, Y., Huang, M.*, Luo, J., &amp; Tang, S. (2022). <em>Applied Soft Computing</em>, 127, 109390. </p>
-</li>
-<li>
-<p>Quadratic surface support vector machine with L1 norm regularization  <br />
-Mousavi, A.*, Gao, Z., Han, L., &amp; Lim, A. (2022), <em>Journal of Industrial and Management Optimization</em>, 18(3), 1835-1861. </p>
-</li>
-<li>
-<p>A novel kernel-free least squares twin support vector machine for fast and accurate multi-class classification   <br />
-Gao, Z., Fang, S.-C., Gao, X., Luo, J.*, &amp; Medhin, N. (2021), <em>Knowledge-Based Systems</em>, 226, 107123.  </p>
-</li>
-<li>
-<p>A kernel-free double well potential support vector machine with applications    <br />
-Gao, Z., Fang, S.-C., Luo, J.*, &amp; Medhin, N. (2021), <em>European Journal of Operational Research</em>, 290(1), 248-262.</p>
-</li>
-<li>
-<p>Rescaled Pure Greedy Algorithm for convex optimization    <br />
-Gao, Z., &amp; Petrova, G.* (2019), <em>Calcolo</em>, 56(2), 1-14.</p>
-</li>
+
+  <li> Kernel-free quadratic least squares twin support vector clustering </br>
+
+Gao, Z., Fu, H., Huang, M.*, & Luo, J. (2025). <i> Neural Computing & Applications </i>. (Accepted) </li>
+
+  <li> A quadratic &nu;-support vector regression approach for load forecasting </br>
+
+Jia, Y., Zhou, S., Wang, Y., Lin, F.*, & Gao, Z. (2025). <i> Complex & Intelligent Systems </i>, 11(1), 1-12.  </li>
+<a href="https://link.springer.com/article/10.1007/s40747-024-01730-7" title="website">website</a>
+
+  <li> Distributionally robust chance-constrained kernel-based support vector machine </br>
+
+Lin, F.*, Fang, S.-C., Fang, X., & Gao, Z. (2024). <i> Computers & Operations Research </i>, 106755. </li>
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0305054824002272" title="website">website</a>
+
+
+  <li> Multi-period fourth-party logistics network design from the viability perspective: a collaborative hyper-heuristic embedded with double-layer Q-learning algorithm </br>
+
+Zhang, Y., Huang, M.*, Gao, Z., Jiang, S., Fang, S.-C., & Wang, X. (2024). <i>International Journal of Production Research</i>, 1-31.  </li>
+<a href="https://www.tandfonline.com/doi/full/10.1080/00207543.2024.2339530" title="website">website</a>
+
+
+  <li> A distributionally robust chance-constrained kernel-free quadratic surface support vector machine </br>
+
+Lin, F., Fang, S.-C., Fang, X., Gao, Z.*, & Luo, J. (2024). <i>European Journal of Operational Research</i>, 316(1), 46-60.  </li>
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221724001309" title="website">website</a>
+
+  <li> A novel Markov model for near-term railway delay prediction  </br>
+
+Xu, J., Wang, W., Gao, Z.*, Luo, H., & Wu, Q. (2023). <i>Computers & Industrial Engineering</i>, 181, 109302.  </li>
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0360835223003261" title="website">website</a>
+
+  <li> Sparse L1-norm quadratic surface support vector machine with Universum data  </br>
+
+Moosaei, H., Mousavi, A., Hladík, M., & Gao, Z.* (2023). <i> Soft Computing</i>, 27(9), 5567-5586.  </li>
+<a href="https://link.springer.com/article/10.1007/s00500-023-07860-3" title="website">website</a>
+
+  <li>  A robust support vector regression model for electric load forecasting  </br>
+
+Luo, J., Hong, T., Gao, Z.*, & Fang, S.-C. (2023). <i> International Journal of Forecasting, </i> 39(2), 1005-1020.  </li>
+<a href=" https://www.sciencedirect.com/science/article/abs/pii/S0169207022000528" title="website">website</a>
+
+  <li>  Multi-period distribution network design with boundedly rational customers for the service-oriented manufacturing supply chain: A 4PL perspective  </br>
+
+Zhang, Y., Gao, Z., Huang, M.*, Jiang, S., Yin, M., & Fang, S.-C. (2022).  <i>International Journal of Production Research, </i> 1-20. </li>
+<a href=" https://www.tandfonline.com/doi/abs/10.1080/00207543.2022.2140220" title="website">website</a>
+
+  <li>  Distributionally robust optimization: A review on theory and applications   </br>
+
+Lin, F., Fang, X., & Gao, Z.* (2022). <i>Numerical Algebra, Control and Optimization, </i> 12(1), 159-212. </li>
+<a href="https://www.aimsciences.org/article/id/5a228ac4-f49b-4499-aab6-0656d63eb577 " title="website">website</a>
+
+  <li> A kernel-free fuzzy reduced quadratic surface &nu;-support vector machine with applications   </br>
+
+Gao, Z., Wang, Y., Huang, M.*, Luo, J., &amp; Tang, S. (2022). <i>Applied Soft Computing, </i> 127, 109390.   </li>
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S1568494622005336 " title="website">website</a>
+
+  <li>  Quadratic surface support vector machine with L1 norm regularization    </br>
+
+Mousavi, A.*, Gao, Z., Han, L., &amp; Lim, A. (2022). <i>Journal of Industrial and Management Optimization, </i>18(3), 1835-1861.   </li>
+<a href="https://www.aimsciences.org/article/doi/10.3934/jimo.2021046 " title="website">website</a>
+
+  <li>  A novel kernel-free least squares twin support vector machine for fast and accurate multi-class classification   </br>
+
+Gao, Z., Fang, S.-C., Gao, X., Luo, J.*, & Medhin, N. (2021).  <i>Knowledge-Based Systems, </i> 226, 107123.    </li>
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0950705121003865 " title="website">website</a>
+
+  <li>  A kernel-free double well potential support vector machine with applications     </br>
+
+Gao, Z., Fang, S.-C., Luo, J.*, & Medhin, N. (2021). <i>European Journal of Operational Research,</I> 290(1), 248-262.  </li>
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221720309176 " title="website">website</a>
+
+  <li> Rescaled Pure Greedy Algorithm for convex optimization    </br>
+
+Gao, Z., & Petrova, G.* (2019). <i>Calcolo, </i> 56(2), 1-14. </li>
+<a href="https://link.springer.com/article/10.1007/s10092-019-0311-x " title="website">website</a>
+
 </ol>
+
 <p></br></p>
-<h2 id="phd-dissertation">Ph.D. dissertation</h2>
-<p>Kernel-free support vector machine models for data classification</p></div>
+<h2 id="thesis">Thesis</h2>
+<p>Kernel-free support vector machine models for data classification<br />
+<a href="https://repository.lib.ncsu.edu/items/33e4bd82-6d29-4cf5-be39-26936b6f4dc9">website</a></p></div>
             </div>
         </div>
 
         <footer class="col-md-12">
             <hr>
-                <p>Copyright &copy; Zheming Gao 2021</p>
+                <p>Copyright &copy; Zheming Gao 2021-2025</p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
-        <script src="../js/jquery-3.6.0.min.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
         <script>
             var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
@@ -176,7 +219,7 @@ Gao, Z., &amp; Petrova, G.* (2019), <em>Calcolo</em>, 56(2), 1-14.</p>
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p>From here you can search these documents. Enter your search terms below.</p>
@@ -196,7 +239,7 @@ Gao, Z., &amp; Petrova, G.* (2019), <em>Calcolo</em>, 56(2), 1-14.</p>
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <table class="table">
