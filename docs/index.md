@@ -1,26 +1,25 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Personal homepage of Dr. Zheming Gao">
+    <meta name="keywords" content ="Zheming Gao, Rice, UNC Charlotte, operations research, machine learning, optimization, NC State">
+</head>
+
+
 <img align="right" src="img/bio3.jpg" width="200">
 
-# Zheming Gao (高哲明)
-  
-  
-  Assistant Professor  
-  College of Information Science and Engineering  
-  [Northeastern University](http://english.neu.edu.cn/) (Shenyang, China)
+# Zheming Gao
 
+I am a Postdoctoral Research Associate in the Department of Statistics at Rice University (with [Dr. Eric Chi](https://www.ericchi.com/)). My research focuses on
 
-
-## About
-
-Zheming Gao joined the College of Information Science and Engineering at Northeastern University (CN) in 2021. 
-He currently works on
-
+* Numerical optimization and algorithm design
 * Methodologies of machine learning 
 * Optimization theories
-* Numerical optimization and algorithm design
-* Operations management  
 
-with applications to financial risk forecasting, supply chain management, healthcare, and other areas of data analytics and optimization. 
-His work is highly interdisciplinary. He is looking to collaborate with researchers from engineering, mathematics, computer science, and medicine.
+with applications to healthcare, energy, and other areas of data analytics and optimization. 
+
+My research work is highly interdisciplinary. I am always looking to collaborate with researchers from engineering, mathematics, computer science, and medicine.
+
 
 ## Education
 
@@ -30,14 +29,25 @@ His work is highly interdisciplinary. He is looking to collaborate with research
 * M.S., Mathematics, Texas A&M University, 2016.  
 * B.S., Mathematics, Beihang University, 2015.
 
+
+## Work Experience
+* Postdoctoral Associate, Department of Statistics, Rice University, 2024-present.
+* Assistant Professor, College of Information Science and Engineering, Northeastern University (Shenyang), 2021-2024.
+
+
+## Awards and Honors
+* Excellent Faculty Award, College of Information Science and Engineering, Northeastern University (2022)
+* Salah E. Elmaghraby Distinguished Student Award, Graduate Program in Operations Research at NC State University (2019)
+* Third Place in the RAS Problem Solving Competition, INFORMS (with Jin Xu, Haochen Luo and Qian Wu, 2018)
+ 
+
 ## Contact
 
-**Email:**  gaozheming at neu dot edu dot cn
+**Email:**  zheming [dot] gao [at] rice [dot] edu
 
-## Useful links
 
-[Zheming Gao's Google Scholar webpage](https://scholar.google.com/citations?user=jfM50lsAAAAJ&hl=en&oi=ao)
 
-[Fangroup](https://www.ise.ncsu.edu/fuzzy-neural/)
 
-[Zheming's github page](https://github.com/tonygaobasketball/)
+
+
+
